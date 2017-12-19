@@ -3,6 +3,17 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+
+/*
+previous color
+red: #B20000;
+hover red: background: rgba(240, 95, 64, 0.9);;
+
+new color
+purple: #563093;
+
+*/
+
 body,
 html {
   width: 100%;
@@ -14,18 +25,18 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #B20000; }
+  border-color: #563093; }
 
 hr.light {
   border-color: white; }
 
 a {
-  color: #B20000;
+  color: #563093;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:focus, a:hover {
-    color: #B20000; }
+    color: #563093; }
 
 h1,
 h2,
@@ -41,7 +52,7 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #B20000 !important; }
+  background-color: #563093 !important; }
 
 .bg-dark {
   color: white;
@@ -87,19 +98,19 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #B20000;
+    color: #563093;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
   #mainNav .font-Asian {
     text-transform: none;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    color: #B20000;
+    color: #563093;
   }
   #mainNav .font-Journey {
     text-transform: none;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
   }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #B20000; }
+      color: #563093; }
   }
   #mainNav .navbar-toggle {
     font-size: 12px;
@@ -114,10 +125,10 @@ body {
     color: #222222; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      color: #B20000; }
+      color: #563093; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #B20000 !important;
+      color: #563093 !important;
       background-color: transparent; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
@@ -147,13 +158,13 @@ body {
           font-size: 16px;
           color: #000; }
           #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #B20000; }
+            color: #563093; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
           #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #B20000; } }
+            color: #563093; } }
 
 header.masthead {
   position: relative;
@@ -231,7 +242,8 @@ header.masthead {
     text-align: center;
     opacity: 0;
     color: white;
-    background: rgba(240, 95, 64, 0.9);
+    /*background: rgba(240, 95, 64, 0.9);*/
+    background: rgba(86, 48, 147, 0.9);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
@@ -267,7 +279,7 @@ header.masthead {
     margin: 0 auto 20px; }
 
 .text-primary {
-  color: #B20000 !important; }
+  color: #563093 !important; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -312,21 +324,21 @@ header.masthead {
 
 .btn-primary {
   color: white;
-  border-color: #B20000;
-  background-color: #B20000; }
+  border-color: #563093;
+  background-color: #563093; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: #a4270d;
-    background-color: #eb3812; }
+    border-color: #4D2193;
+    background-color: #4D2193; }
   .btn-primary:hover {
     color: white;
-    border-color: #e13612;
-    background-color: #eb3812; }
+    border-color: #4D2193;
+    background-color: #4D2193; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #e13612;
-    background-color: #eb3812; }
+    border-color: #4D2193;
+    background-color: #4D2193; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
@@ -341,10 +353,10 @@ header.masthead {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #B20000;
-    background-color: #B20000; }
+    border-color: #563093;
+    background-color: #563093; }
   .btn-primary .badge {
-    color: #B20000;
+    color: #563093;
     background-color: white; }
 
 .btn {
