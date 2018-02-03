@@ -50,11 +50,12 @@ Iqbaal@123
 - Attractions
 	- History & Culture
 		- Sigiriya
-		- Dambulla
-		- Kandy
+		- Dambulla Temple
+		- Kandy Temple
 		- Anuradhapura
 		- Polonnaruwa
 		- Adam's Peak
+		- Kalutara Temple
 	- Sun & Surf
 		- Galle
 		- Unawatuna
