@@ -106,6 +106,15 @@ body {
     text-transform: uppercase;
     color: #563093;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  #mainNav .font-Asian {
+    text-transform: none;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: #563093;
+  }
+  #mainNav .font-Journey {
+    text-transform: none;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #563093; }
   #mainNav .navbar-toggle {
